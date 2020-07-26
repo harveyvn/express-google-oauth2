@@ -1,4 +1,4 @@
-## Authentication with Google OAuth
+## Authentication with Google OAuth 2.0
 
 ### The OAuth Flow
 
