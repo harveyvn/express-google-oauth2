@@ -1,10 +1,10 @@
 ## Authentication with Google OAuth
 
-### The OAth Flow
+### The OAuth Flow
 
 We'll see three different columns which are Client, Server, and Google. The client column is an action which is referring to the browser or users. This is place users click around and do something. Next is the server column where contains all of the logic layers we will put together to represent how our server is running. Finally, the Google column is responsible for authentication.
 
-![The OAth Flow](https://p142.p3.n0.cdn.getcloudapp.com/items/lluJBP0w/Image%202020-07-26%20at%2010.55.23%20PM.png)
+![The OAuth Flow](https://p142.p3.n0.cdn.getcloudapp.com/items/lluJBP0w/Image%202020-07-26%20at%2010.55.23%20PM.png)
 
 When the client clicks on the button, namely Login with Button, the browser will redirect the login request to the address localhost:5000/auth/google and take that request forwarding to Google at google.com/auth?appId=123.
 
